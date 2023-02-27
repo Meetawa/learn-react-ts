@@ -6,10 +6,10 @@ type PersonNames={
 }
 const TypesPropsBasic = (props:PersonNames) => {
   return (
-    <div>
-    {props.name.first}{props.name.last}
-    </div>
+    <h1>
+    {props.name.first} {props.name.last}
+    </h1>
   )
 }
 
-export default TypesPropsBasic
+export default TypesPropsBasic;
