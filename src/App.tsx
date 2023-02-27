@@ -1,7 +1,7 @@
 import TypingProps from './components/TypingProps'
-import TypesPropsBasic from './components/TypesPropsBasic'
+/* import TypesPropsBasic from './components/TypesPropsBasic'
 import TypesPropsListObjects from './components/TypesPropsListObjects'
-import TypesPropAdvance from './components/TypesPropAdvance'
+import TypesPropAdvance from './components/TypesPropAdvance' */
 function App() {
   const PersonNames={
     first:"rahul",
@@ -24,13 +24,16 @@ function App() {
   ]
   return (
     <div>
-      <TypingProps name={"rahul saini"}
+      {/* <TypingProps name={"rahul saini"}
       rollno={10001}
       Age={true}
       />
       <TypesPropsBasic  name={PersonNames}/>
       <TypesPropsListObjects names={PersonNameList} />
-      <TypesPropAdvance status={"ererer"}/>
+      <TypesPropAdvance status={"ererer"}/> */}
+      {
+        
+      }
     </div>
   )
 }
